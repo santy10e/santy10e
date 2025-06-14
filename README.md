@@ -1,4 +1,4 @@
-<h2 align="left">Hi 👋! My name is Santiago, and I'm a Computing Student from Ecuador. I'm also a developer.</h2>
+<h2 align="left">Hi 👋! My name is Santiago, and I'm a Computer Science Engineer from Ecuador. I'm also a developer.</h2>
 
 ###
 
