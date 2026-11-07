@@ -1,0 +1,84 @@
+# Builds every dynamic image used by the profile README (stats cards and the
+# contribution snake) and publishes them to the orphan `output` branch, so the
+# README never depends on third-party hosted services and `main` stays clean.
+
+name: Build profile assets
+
+on:
+  schedule:
+    - cron: "0 */12 * * *" # every 12 hours, on the hour
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/profile-assets.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: true
+
+env:
+  OUT_DIR: dist
+
+jobs:
+  build:
+    name: Generate and publish assets
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      # --- Stats cards (light) -------------------------------------------------
+      - name: Generate stats cards (light)
+        uses: vn7n24fzkq/github-profile-summary-cards@v0.13.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
+          THEME: github
+          TIME_ZONE: America/Guayaquil
+          AUTO_PUSH: false
+
+      - name: Collect light cards
+        run: |
+          mkdir -p "$OUT_DIR/stats"
+          mv profile-summary-card-output/github "$OUT_DIR/stats/light"
+
+      # --- Stats cards (dark) --------------------------------------------------
+      - name: Generate stats cards (dark)
+        uses: vn7n24fzkq/github-profile-summary-cards@v0.13.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
+          THEME: github_dark
+          TIME_ZONE: America/Guayaquil
+          AUTO_PUSH: false
+
+      - name: Collect dark cards
+        run: mv profile-summary-card-output/github_dark "$OUT_DIR/stats/dark"
+
+      # --- Contribution snake --------------------------------------------------
+      - name: Generate snake (light & dark)
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            ${{ env.OUT_DIR }}/snake.svg
+            ${{ env.OUT_DIR }}/snake-dark.svg?palette=github-dark
+
+      - name: List generated files
+        run: find "$OUT_DIR" -type f | sort
+
+      # --- Publish -------------------------------------------------------------
+      - name: Publish to the output branch
+        uses: crazy-max/ghaction-github-pages@v5
+        with:
+          target_branch: output
+          build_dir: ${{ env.OUT_DIR }}
+          commit_message: "chore: update profile assets"
+          jekyll: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

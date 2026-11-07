@@ -1,51 +1,63 @@
 <h1 align="center">Santiago Tene</h1>
 
 <p align="center">
-  <b>Computer Science Engineer</b> · Software Developer · Ecuador 🇪🇨
+  <b>Computer Science Engineer</b> · AI &amp; Machine Learning · Software Engineering · Cybersecurity<br/>
+  <i>Engineering intelligent and secure software systems.</i>
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/santiago-emanuel-tene-castillo-614b84277/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="mailto:santiago.tene@unl.edu.ec"><img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="https://www.instagram.com/santy10e/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white" alt="Instagram" /></a>
+  <a href="https://santiagotene.online/en/"><img src="https://img.shields.io/badge/Portfolio-santiagotene.online-111111?style=flat-square&logo=astro&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://www.linkedin.com/in/santiago-tene/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:santy10e@hotmail.com"><img src="https://img.shields.io/badge/✉%20Email-0078D4?style=flat-square" alt="Email" /></a>
+  <a href="https://santiagotene.online/documents/CV_SantiagoTene_en.pdf"><img src="https://img.shields.io/badge/CV-EN-555555?style=flat-square&logo=readthedocs&logoColor=white" alt="CV in English" /></a>
+  <a href="https://santiagotene.online/documents/CV_SantiagoTene_es.pdf"><img src="https://img.shields.io/badge/CV-ES-555555?style=flat-square&logo=readthedocs&logoColor=white" alt="CV en español" /></a>
 </p>
 
 ---
 
 ## About me
 
-- 🎓 Computer Science Engineer.
-- 💻 I build web, mobile and backend applications, from the database to the UI.
-- ☁️ Interested in cloud infrastructure, containers and DevOps practices.
-- 📫 Reach me at [santiago.tene@unl.edu.ec](mailto:santiago.tene@unl.edu.ec) or on [LinkedIn](https://www.linkedin.com/in/santiago-emanuel-tene-castillo-614b84277/).
+- 🎓 Computer Science Engineer from **Universidad Nacional de Loja** (Ecuador), on the machine learning track: data mining, computer vision, deep learning and neural networks.
+- 🚀 Co-founder at **[Tas Tas Soluciones](https://tastasweb.com/)**, building software solutions for clients.
+- 🧠 Main interests: **AI / ML**, **software engineering** and **cybersecurity**.
+- 🌎 Based in Ecuador and **open to remote opportunities**.
+
+<p align="right"><a href="https://santiagotene.online/en/#projects">More on my portfolio →</a></p>
 
 ## Tech stack
 
 | Area | Technologies |
 | :--- | :--- |
-| **Languages** | ![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) |
-| **Frontend** | ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white) |
-| **Mobile** | ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white) |
-| **Backend** | ![Spring](https://img.shields.io/badge/Spring-6DB33F?style=flat-square&logo=spring&logoColor=white) ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black) |
-| **Databases** | ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) |
-| **Data & ML** | ![Anaconda](https://img.shields.io/badge/Anaconda-44A833?style=flat-square&logo=anaconda&logoColor=white) |
-| **Cloud & DevOps** | ![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) |
+| **Languages** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black) ![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white) |
+| **AI / ML** | ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white) ![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white) ![YOLO](https://img.shields.io/badge/YOLO-00FFFF?style=flat-square&logo=yolo&logoColor=black) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white) ![Anaconda](https://img.shields.io/badge/Anaconda-44A833?style=flat-square&logo=anaconda&logoColor=white) |
+| **Backend** | ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white) ![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat-square&logo=sqlalchemy&logoColor=white) ![Spring](https://img.shields.io/badge/Spring-6DB33F?style=flat-square&logo=spring&logoColor=white) ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) |
+| **Frontend & Mobile** | ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white) ![Astro](https://img.shields.io/badge/Astro-BC52EE?style=flat-square&logo=astro&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white) ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white) |
+| **Cloud & DevOps** | ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white) |
 
 ## GitHub stats
 
+<!-- Cards are generated by .github/workflows/profile-assets.yml and published to the `output` branch. -->
 <p align="center">
-  <a href="https://github.com/santy10e">
-    <img height="165" src="https://github-readme-stats.vercel.app/api?username=santy10e&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=transparent" alt="Santiago's GitHub stats" />
-  </a>
-  <a href="https://github.com/santy10e?tab=repositories">
-    <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=santy10e&layout=compact&langs_count=6&hide_border=true&theme=transparent" alt="Most used languages" />
-  </a>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/santy10e/santy10e/output/stats/dark/3-stats.svg" />
+    <img height="180" alt="GitHub stats" src="https://raw.githubusercontent.com/santy10e/santy10e/output/stats/light/3-stats.svg" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/santy10e/santy10e/output/stats/dark/2-most-commit-language.svg" />
+    <img height="180" alt="Most committed languages" src="https://raw.githubusercontent.com/santy10e/santy10e/output/stats/light/2-most-commit-language.svg" />
+  </picture>
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=santy10e&theme=dark&hide_border=true&background=00000000" />
+    <img alt="Contribution streak" src="https://github-readme-streak-stats.herokuapp.com/?user=santy10e&theme=default&hide_border=true&background=00000000" />
+  </picture>
 </p>
 
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/santy10e/santy10e/output/snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/santy10e/santy10e/output/snake.svg" />
     <img alt="Contribution graph being eaten by a snake" src="https://raw.githubusercontent.com/santy10e/santy10e/output/snake.svg" />
   </picture>
 </p>
